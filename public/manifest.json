@@ -7,7 +7,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://notion.so/"],
+      "matches": ["*://*.notion.so/*"],
       "js": ["content_scripts.js"]
     }
   ],
